@@ -3,9 +3,14 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Cermak Professional</span>
-    </footer>
+    <div className="myFooter">   
+    <a className = "footerLinks" href="contact.html"> Contact </a>
+    <i className="fas fa-envelope"></i>
+    <a className = "footerLinks" href="portfolio.html"> Portfolio </a>
+    <i className="fas fa-envelope"></i>
+    <a className = "footerLinks" href="index.html"> About </a> 
+    <i className="fas fa-user-circle"></i>  
+  </div>
   );
 }
 
