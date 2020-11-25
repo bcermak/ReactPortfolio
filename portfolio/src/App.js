@@ -5,7 +5,7 @@ import AboutMe from "./pages/aboutme";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import Wrapper from "./components/Wrapper";
-import Contact from "./components/Contact";
+import Contact from "./pages/contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
