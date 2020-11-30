@@ -1,0 +1,170 @@
+.navbar {
+    background-color: black;
+}
+
+.formBody {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form1{
+       width: 300px;
+        text-align: center;
+        margin-top: 5%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    
+}
+.myInfo {
+    float:right;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    font-family: 'Goldman', cursive;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    margin-top: 5px;
+}
+.fa-linkedin,
+.fa-github,
+.fa-mailchimp,
+.fa-phone-volume {
+    color:blue;
+    font-size: 15px;
+}
+
+.contactDirect{
+    color:black;
+    font-family: 'Goldman', cursive;
+}
+button {
+background-color: #343a40!important;
+
+}
+
+.form-group {
+    color: white;
+    font-weight: 400;
+}
+
+
+.name {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+
+}   
+.linkedin {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.aboutMe {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-bottom: 29%;
+    
+}
+
+.card-body{
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 22%;
+margin-right: 22%;
+text-align: center;
+
+;
+}
+
+.knowMe {
+    color:white;
+    font-family: 'Goldman', cursive;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+.projects {
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.paragraph {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(175,172,232);
+    background: radial-gradient(circle, rgba(175,172,232,1) 0%, rgba(18,18,29,0.7959558823529411) 26%, rgba(27,33,34,1) 100%);
+}
+
+.projectTitle {
+    color: white;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .myFooter,
+  .push {
+    height: 50px;
+  }
+   
+
+.myFooter {
+    padding-top: 8.5px;
+    background-color: black;
+    text-align: center;
+}
+
+.footerLinks {
+    color: white;
+}
+
+.portfolio-header {
+    margin-left: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    color: whitesmoke
+}
+
+.resume {
+    width: 100%;
+    height: 80%;
+    padding-right: 30px;
+    
+}
+
+.resumeBody {
+    text-align: center;
+    
+}
+
+.secondaryProject,
+.primaryProject {
+    
+    text-align: center;
+}
+.carousel {
+ margin: 0 auto;
+}
+
+.hwBtn1,
+.hwBtn2,
+.hwBtn3,
+.hwBtn4 {
+   margin-top: 10px;
+}
+
+.projectA,
+.projectB,
+.projectC,
+.projectD
+ {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
