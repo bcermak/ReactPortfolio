@@ -16,7 +16,9 @@ function AboutMe() {
                     <Image className="linkedin" src={linkedin1} width="200" height="200"></Image>
                 </Col>
                 <Col className= ".col-9">
-                    <div>I am currently in the process of a major career change after a very unexpected start to my 2020. Hospitality is/was my passion, however, there was always the idea in the back of my mind to make a major career shift to a more ‘technical’ occupation...after some motivation from the events of COVID19, I am ecstatic to be on my way to becoming a Full Stack Web Developer!</div>
+                    <div>Brandon is a Full Stack Web Developer with an extensive background in Operational Management. A willingness to do any task to get the job done allowed Brandon to rise to the top of the ranks in hotel management, and this willingness will allow him to thrive in any role at your company!</div>
+                    <br></br>  
+                    <div>2020 has been a year of surprises for us all. Brandon seized the chance to turn these surprises into growth and is excited to make the long-awaited leap into a new career!</div>
                 </Col>    
             </Row>    
         </Container>
