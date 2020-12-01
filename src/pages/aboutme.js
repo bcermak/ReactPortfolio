@@ -16,7 +16,7 @@ function AboutMe() {
                     <Image className="linkedin" src={linkedin1} width="200" height="200"></Image>
                 </Col>
                 <Col className= ".col-9">
-                    <div>Brandon is a Full Stack Web Developer with an extensive background in Operational Management. A willingness to do any task to get the job done allowed Brandon to rise to the top of the ranks in hotel management, and this willingness will allow him to thrive in any role at your company!</div>
+                    <div>Brandon is a web developer with an extensive background in Operational Management. A willingness to do any task to get the job done allowed Brandon to rise to the top of the ranks in hotel management, and this willingness will allow him to thrive in any role at your company!</div>
                     <br></br>  
                     <div>2020 has been a year of surprises for us all. Brandon seized the chance to turn these surprises into growth and is excited to make the long-awaited leap into a new career!</div>
                 </Col>    
