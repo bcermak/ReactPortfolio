@@ -3,8 +3,8 @@
 }
 
 .formBody {
+    margin-top: 10%;
     text-align: center;
-    margin-bottom: 20px;
 }
 .form1{
        width: 300px;
@@ -59,12 +59,7 @@ background-color: #343a40!important;
 }
 
 .aboutMe {
-    font-family: 'Barlow Condensed', sans-serif;
-    color: white;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-    font-weight: 600;
-    padding-top: 20px;
-    margin-bottom: 29%;
+    margin-top: 10%;
     
 }
 
@@ -74,18 +69,14 @@ padding-right: 10px;
 margin-left: 22%;
 margin-right: 22%;
 text-align: center;
+box-sizing: border-box;
+border: yellowgreen;
 
 ;
 }
 
-.knowMe {
-    color:white;
-    font-family: 'Goldman', cursive;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-}
 .projects {
     margin-top:50px;
-    margin-bottom: 50px;
 }
 
 .paragraph {
@@ -115,7 +106,7 @@ html, body {
    
 
 .myFooter {
-    padding-top: 8.5px;
+    margin-top: 10%;
     background-color: black;
     text-align: center;
 }
@@ -133,14 +124,14 @@ html, body {
 
 .resume {
     width: 100%;
-    height: 80%;
-    padding-right: 30px;
+    height: 100%;
+    
     
 }
 
 .resumeBody {
     align-content: center;
-    
+    text-align: center;
 }
 
 .secondaryProject,
@@ -167,7 +158,5 @@ html, body {
 .projectC,
 .projectD
  {
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+
 }
