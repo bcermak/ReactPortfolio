@@ -70,6 +70,8 @@ text-align: center;
 
 .projects {
     margin-top:50px;
+    text-align: center;
+    color: white;
 }
 
 .paragraph {
@@ -139,10 +141,3 @@ body {
    margin-top: 10px;
 }
 
-.projectA,
-.projectB,
-.projectC,
-.projectD
- {
-
-}

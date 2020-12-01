@@ -11,49 +11,42 @@ import PasswordGenerator from './Assets/Images/passwordgenerator.png'
 function Portfolio() {
     return <div className= "container">
         <div className ="row projects">
-            <div className= "col-md-6 primaryProject">
-                        <div><a href = "https://enigmatic-brushlands-64346.herokuapp.com/"> Project 1 </a></div>
+            <div className= "col-md-6">
+                        <div style={{color: 'white'}}>Keep Austin Social </div>
                         <Image src={KeepAustinSocial} className ="primaryPic1"></Image>
-                        <div><a href = "https://github.com/Moon-Ingenium/KeepAustinSocial"> GitHub </a></div>
+                        <div><a style={{fontSize: 'larger', color: 'white'}} href = "https://github.com/Moon-Ingenium/KeepAustinSocial"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://enigmatic-brushlands-64346.herokuapp.com/"> Deployed </a></div>
             </div>
-            <div className="col-md-6 secondaryProject">
-                <div><a href = "https://bcermak.github.io/BrewsNDadJokes/"> Project 2 </a></div>
+            <div className="col-md-6">
+                <div style={{color: 'white'}}> BrewsNDadJokes </div>
                 <Image src={BrewsNDadJokes} className ="primaryPic1"></Image>
-                <div><a href = "https://github.com/bcermak/BrewsNDadJokes"> GitHub </a></div>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/BrewsNDadJokes"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/BrewsNDadJokes/"> Deployed </a></div>
             </div>
-        </div>    
-            <div className="row homeworks">
-                <div className="col-md-6 projectA">
-                    <div className="media-body">
-                    <h5 className="projectTitle"><a className = "projectTitle" href= "https://bcermak.github.io/Work-Day-Scheduler/"> Work Day Scheduler </a></h5>
-                    </div>
-                    <Image src={Scheduler}></Image>
-                    <button className = "hwBtn1">Visit Repository</button>
-                </div>    
-                <div class="col-md-6 projectB">  
-                    <div class="media-body">
-                    <h5 class="projectTitle"><a class = "projectTitle" href= "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></h5>
-                    </div>
-                    <Image src={WeatherApp}></Image>
-                    <button class = "hwBtn2">Visit Repository</button>
-                </div>
+        </div>
+        <div className ="row projects">
+            <div className= "col-md-6">
+                        <div style={{color: 'white'}}> Work Day Scheduler </div>
+                        <Image src={Scheduler} className ="primaryPic1"></Image>
+                        <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/Work-Day-Scheduler"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/Work-Day-Scheduler/"> Deployed </a></div>
             </div>
-            <div className="row homeworks">  
-                <div class="col-md-6 projectC">
-                    <div class="media-body">
-                    <h5 class="projectTitle"><a class = "projectTitle" href= "https://github.com/bcermak/employeetracker"> Employee Management System </a></h5>
-                    </div>
-                    <Image src={EmpManager}></Image>
-                    <button class = "hwBtn3">Visit Repository</button>
-                </div>               
-                <div class="col-md-6 projectD">
-                    <div class="media-body">
-                    <h5 class="projectTitle"><a class = "projectTitle" href= "https://bcermak.github.io/PasswordGenerator/"> Password Generator </a></h5>
-                    </div>
-                    <Image src={PasswordGenerator}></Image>
-                    <button class = "hwBtn4">Visit Repository</button>
-                </div>
-            </div>     
+            <div className="col-md-6">
+                <div style={{color: 'white'}}> Weather Dashboard </div>
+                <Image src={WeatherApp} className ="primaryPic1"></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/Weather-Dashboard"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></div>
+            </div>
+        </div>
+        <div className ="row projects">
+            <div className= "col-md-6">
+                <div style={{color: 'white'}}> Employee Management System </div>
+                <Image src={EmpManager} className ="primaryPic1"></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/employeetracker"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = ""> Deployed </a></div>
+            </div>
+            <div className="col-md-6">
+                <div style={{color: 'white'}}> Password Generator </div>
+                <Image src={PasswordGenerator} className ="primaryPic1"></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/PasswordGenerator"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/PasswordGenerator/"> Deployed </a></div>
+            </div>
+        </div>
+        
         </div>        
           
         
