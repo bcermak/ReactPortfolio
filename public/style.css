@@ -114,11 +114,12 @@ body {
 }
 
 .resume {
-    width: 100%;
+    width: 85%;
     height: 100%;
     text-align: center;
-    justify-content: center;
+    margin: 0 auto;
     margin-bottom: 25%;
+   
 }
 
 .secondaryProject,
