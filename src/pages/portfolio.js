@@ -23,36 +23,39 @@ function Portfolio() {
             </div>
         </div>    
             <div className="row homeworks">
-                <div className="col-md-3 projectA">
+                <div className="col-md-6 projectA">
                     <div className="media-body">
                     <h5 className="projectTitle"><a className = "projectTitle" href= "https://bcermak.github.io/Work-Day-Scheduler/"> Work Day Scheduler </a></h5>
                     </div>
                     <Image src={Scheduler}></Image>
                     <button className = "hwBtn1">Visit Repository</button>
-                </div> 
-                <div class="col-md-3 projectB">  
+                </div>    
+                <div class="col-md-6 projectB">  
                     <div class="media-body">
                     <h5 class="projectTitle"><a class = "projectTitle" href= "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></h5>
                     </div>
                     <Image src={WeatherApp}></Image>
                     <button class = "hwBtn2">Visit Repository</button>
                 </div>
-                <div class="col-md-3 projectC">
+            </div>
+            <div className="row homeworks">  
+                <div class="col-md-6 projectC">
                     <div class="media-body">
                     <h5 class="projectTitle"><a class = "projectTitle" href= "https://github.com/bcermak/employeetracker"> Employee Management System </a></h5>
                     </div>
                     <Image src={EmpManager}></Image>
                     <button class = "hwBtn3">Visit Repository</button>
-                </div>
-                <div class="col-md-3 projectD">
+                </div>               
+                <div class="col-md-6 projectD">
                     <div class="media-body">
                     <h5 class="projectTitle"><a class = "projectTitle" href= "https://bcermak.github.io/PasswordGenerator/"> Password Generator </a></h5>
                     </div>
                     <Image src={PasswordGenerator}></Image>
                     <button class = "hwBtn4">Visit Repository</button>
-                </div> 
-                    </div>        
-            </div>   
+                </div>
+            </div>     
+        </div>        
+          
         
 }
 

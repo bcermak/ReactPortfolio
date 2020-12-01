@@ -69,10 +69,6 @@ padding-right: 10px;
 margin-left: 22%;
 margin-right: 22%;
 text-align: center;
-box-sizing: border-box;
-border: yellowgreen;
-
-;
 }
 
 .projects {
@@ -139,9 +135,6 @@ html, body {
     text-align: center;
 }
 
-.primaryPic1 {
-
-}
 .carousel {
  margin: 0 auto;
 }
