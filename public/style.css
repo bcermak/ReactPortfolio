@@ -29,10 +29,11 @@
     margin-top: 5px;
 }
 
-.contactDirect{
-    color:black;
-    font-family: 'Goldman', cursive;
+.contactContainer{
+    margin-top: 50px;
+    
 }
+
 button {
 background-color: #343a40!important;
 
