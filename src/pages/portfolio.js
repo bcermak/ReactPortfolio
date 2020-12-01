@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
 import KeepAustinSocial from './Assets/Images/keepaustinsocial.jpg'
 import BrewsNDadJokes from './Assets/Images/brewsndadjokes.jpg'
-import Scheduler from './Assets/Images/scheduler.jpg'
+import Scheduler from './Assets/Images/scheduler.JPG'
 import WeatherApp from './Assets/Images/WeatherApp.png'
 import EmpManager from './Assets/Images/empmanager.jpg'
 import PasswordGenerator from './Assets/Images/passwordgenerator.png'
