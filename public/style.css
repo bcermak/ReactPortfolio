@@ -2,11 +2,16 @@
     background-color: black;
 }
 
+.navHeader{
+    color: white;
+}
 .formBody {
+    box-sizing: content-box;
     margin-top: 10%;
     text-align: center;
 }
 .form1{
+
        width: 300px;
         text-align: center;
         margin-top: 5%;
@@ -23,13 +28,6 @@
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
     margin-top: 5px;
 }
-.fa-linkedin,
-.fa-github,
-.fa-mailchimp,
-.fa-phone-volume {
-    color:blue;
-    font-size: 15px;
-}
 
 .contactDirect{
     color:black;
@@ -45,7 +43,6 @@ background-color: #343a40!important;
     font-weight: 400;
 }
 
-
 .name {
     color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -54,12 +51,12 @@ background-color: #343a40!important;
 
 }   
 .linkedin {
-text-align: center;
+
 }
 
 .aboutMe {
-    align-items: center;
     margin-top: 10%;
+    color: white;
 }
 
 .card-body{
@@ -80,8 +77,7 @@ text-align: center;
 }
 
 body {
-    background: rgb(175,172,232);
-    background: radial-gradient(circle, rgba(175,172,232,1) 0%, rgba(18,18,29,0.7959558823529411) 26%, rgba(27,33,34,1) 100%);
+    background-image: linear-gradient(to left, #77f9f1, #5bdee9, #4dc2dd, #4ba6cb, #4e8bb5, #4e8bb5, #4e8bb5, #4e8bb5, #4ba6cb, #4dc2dd, #5bdee9, #77f9f1);
 }
 
 .projectTitle {

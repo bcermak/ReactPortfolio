@@ -2,16 +2,24 @@ import React from "react";
 import Image from 'react-bootstrap/Image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import linkedin1 from './Assets/Images/linkedin1.png'
-import { Card, CardTitle, CardText } from 'reactstrap';
+import { Card, CardTitle, Container, Row, Col } from 'reactstrap';
 
 
 
 function AboutMe() {
     return <div>
-       <Card className="aboutMe" body outline>
+       <Card style={{ backgroundColor:"black" }} className="aboutMe" body outline>
         <CardTitle tag="h2">Brandon Cermak - Full Stack Web Developer</CardTitle>
-        <Image className="linkedin" src={linkedin1} width="200" height="200"></Image>
-        <CardText className = "">I am currently in the process of a major career change after a very unexpected start to my 2020. Hospitality is/was my passion, however, there was always the idea in the back of my mind to make a major career shift to a more ‘technical’ occupation...after some motivation from the events of COVID19, I am ecstatic to be on my way to becoming a Full Stack Web Developer!</CardText>
+        <Container>
+            <Row>
+                <Col className= ".col-3">
+                    <Image className="linkedin" src={linkedin1} width="200" height="200"></Image>
+                </Col>
+                <Col className= ".col-9">
+                    <div>I am currently in the process of a major career change after a very unexpected start to my 2020. Hospitality is/was my passion, however, there was always the idea in the back of my mind to make a major career shift to a more ‘technical’ occupation...after some motivation from the events of COVID19, I am ecstatic to be on my way to becoming a Full Stack Web Developer!</div>
+                </Col>    
+            </Row>    
+        </Container>
       </Card>
         {/* <div className ="row">
             <div className ="col-md-12">

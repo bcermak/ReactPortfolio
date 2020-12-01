@@ -8,9 +8,8 @@ function NavTabs() {
   const location = useLocation();
 
     return (
-    <nav>
-        <ul className="nav nav-tabs">
-        <h5>My Portfolio</h5>    
+    <nav className="navbar">
+        <ul className="nav nav-tabs">  
         <li className="nav-item">
             <Link
             to="/about"
@@ -44,6 +43,7 @@ function NavTabs() {
             </Link>
         </li>
         </ul>
+        <h2 className ="navHeader">Cermak Professional</h2>
     </nav>  
   );
 }
