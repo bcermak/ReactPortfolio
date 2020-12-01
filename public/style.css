@@ -145,8 +145,11 @@ html, body {
 
 .secondaryProject,
 .primaryProject {
-    
     text-align: center;
+}
+
+.primaryPic1 {
+
 }
 .carousel {
  margin: 0 auto;
