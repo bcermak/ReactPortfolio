@@ -4,12 +4,8 @@ import "./style.css";
 function Footer() {
   return (
     <div className="myFooter">   
-    <a className = "footerLinks" href="contact.html"> Contact </a>
-    <i className="fas fa-envelope"></i>
-    <a className = "footerLinks" href="portfolio.html"> Portfolio </a>
-    <i className="fas fa-envelope"></i>
-    <a className = "footerLinks" href="index.html"> About </a> 
-    <i className="fas fa-user-circle"></i>  
+    <a className = "footerLinks" href="https://www.linkedin.com/in/brandon-cermak-ab4219121/"> LinkedIn <i class="fab fa-linkedin"></i> </a>
+    <a className = "footerLinks" href="portfolio.html"> GitHub <i class="fab fa-github"></i> </a>
   </div>
   );
 }

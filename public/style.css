@@ -54,13 +54,12 @@ background-color: #343a40!important;
 
 }   
 .linkedin {
-    padding-top: 10px;
-    padding-bottom: 15px;
+text-align: center;
 }
 
 .aboutMe {
+    align-items: center;
     margin-top: 10%;
-    
 }
 
 .card-body{
