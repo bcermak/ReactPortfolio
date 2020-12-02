@@ -3,47 +3,47 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'react-bootstrap/Image'
 import KeepAustinSocial from './Assets/Images/keepaustinsocial.jpg'
 import BrewsNDadJokes from './Assets/Images/brewsndadjokes.jpg'
-import Scheduler from './Assets/Images/scheduler.JPG'
+import TeamProfiles from './Assets/Images/teamprofiles.jpg'
 import WeatherApp from './Assets/Images/WeatherApp.png'
-import EmpManager from './Assets/Images/empmanager.jpg'
-import PasswordGenerator from './Assets/Images/passwordgenerator.png'
+import ReactEmployeeDirectory from './Assets/Images/reactempdir.jpg'
+import ProgressiveBudget from './Assets/Images/progbudget.jpg'
 
 function Portfolio() {
     return <div className= "container">
         <div className ="row projects">
             <div className= "col-md-6">
-                        <div style={{color: 'white'}}>Keep Austin Social </div>
-                        <Image src={KeepAustinSocial} className ="primaryPic1"></Image>
-                        <div><a style={{fontSize: 'larger', color: 'white'}} href = "https://github.com/Moon-Ingenium/KeepAustinSocial"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://enigmatic-brushlands-64346.herokuapp.com/"> Deployed </a></div>
+                        <div style={{color: 'white', marginBottom:'8px'}}>Progressive Budget Tracker</div>
+                        <Image style ={{border:'solid black'}} src={ProgressiveBudget} className ="primaryPic1"></Image>
+                        <div><a style={{fontSize: 'larger', color: 'white'}} href = "https://github.com/bcermak/budgettracker"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://budgettrackerrrr.herokuapp.com"> Deployed </a></div>
+            </div>
+            <div className= "col-md-6">
+                <div style={{color: 'white', marginBottom:'8px'}}> React Employee Directory </div>
+                <Image style ={{border:'solid black'}} src={ReactEmployeeDirectory} className ="primaryPic1"></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/ReactEmployeeDirectory"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://user-directoryy.herokuapp.com/"> Deployed </a></div>
+            </div>    
+        </div>
+        <div className ="row projects">
+        <div className="col-md-6">
+                <div style={{color: 'white', marginBottom:'8px'}}> Weather Dashboard </div>
+                <Image style ={{border:'solid black'}} src={WeatherApp} className ="primaryPic1"></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/Weather-Dashboard"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></div>
             </div>
             <div className="col-md-6">
-                <div style={{color: 'white'}}> BrewsNDadJokes </div>
-                <Image src={BrewsNDadJokes} className ="primaryPic1"></Image>
+                <div style={{color: 'white', marginBottom:'8px'}}> BrewsNDadJokes </div>
+                <Image style ={{border:'solid black'}} src={BrewsNDadJokes} className ="primaryPic1"></Image>
                 <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/BrewsNDadJokes"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/BrewsNDadJokes/"> Deployed </a></div>
             </div>
         </div>
         <div className ="row projects">
             <div className= "col-md-6">
-                        <div style={{color: 'white'}}> Work Day Scheduler </div>
-                        <Image src={Scheduler} className ="primaryPic1"></Image>
-                        <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/Work-Day-Scheduler"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/Work-Day-Scheduler/"> Deployed </a></div>
-            </div>
+                        <div style={{color: 'white', marginBottom:'8px'}}>Team Profiles Generator (CLI) </div>
+                        <Image style ={{border:'solid black'}} src={TeamProfiles} className ="primaryPic1"></Image>
+                        <div><a style={{fontSize: 'larger', color: 'white'}} href = "https://github.com/bcermak/Team-Profiles"> GitHub </a></div>
+            </div>  
             <div className="col-md-6">
-                <div style={{color: 'white'}}> Weather Dashboard </div>
-                <Image src={WeatherApp} className ="primaryPic1"></Image>
-                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/Weather-Dashboard"> GitHub </a> || <a style={{fontSize: 'larger', color: 'white'}} href = "https://bcermak.github.io/Weather-Dashboard/"> Weather Dashboard </a></div>
-            </div>
-        </div>
-        <div className ="row projects">
-            <div className= "col-md-6">
-                <div style={{color: 'white'}}> Employee Management System </div>
-                <Image src={EmpManager} className ="primaryPic1"></Image>
-                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/employeetracker"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = ""> Deployed </a></div>
-            </div>
-            <div className="col-md-6">
-                <div style={{color: 'white'}}> Password Generator </div>
-                <Image src={PasswordGenerator} className ="primaryPic1"></Image>
-                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/PasswordGenerator"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/PasswordGenerator/"> Deployed </a></div>
+                <div style={{color: 'white', marginBottom:'8px'}}> Keep Austin Social </div>
+                <Image style ={{border:'solid black'}} src={KeepAustinSocial}></Image>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/Moon-Ingenium/KeepAustinSocial"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://enigmatic-brushlands-64346.herokuapp.com/"> Deployed </a></div>
             </div>
         </div>
         
