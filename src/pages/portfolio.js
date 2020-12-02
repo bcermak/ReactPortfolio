@@ -34,7 +34,7 @@ function Portfolio() {
                 <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/BrewsNDadJokes"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://bcermak.github.io/BrewsNDadJokes/"> Deployed </a></div>
             </div>
         </div>
-        <div className ="row projects">
+        <div id = "projectsBottom" className ="row projects">
             <div className= "col-md-6">
                         <div style={{color: 'white', marginBottom:'8px'}}>Team Profiles Generator (CLI) </div>
                         <Image style ={{border:'solid black'}} src={TeamProfiles} className ="primaryPic1"></Image>
