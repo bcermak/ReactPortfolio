@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image'
 import KeepAustinSocial from './Assets/Images/keepaustinsocial.jpg'
 import BrewsNDadJokes from './Assets/Images/brewsndadjokes.jpg'
 import TeamProfiles from './Assets/Images/teamprofiles.jpg'
-import WeatherApp from './Assets/Images/WeatherApp.png'
+import WeatherApp from './Assets/Images/weatherapp.jpg'
 import ReactEmployeeDirectory from './Assets/Images/reactempdir.jpg'
 import ProgressiveBudget from './Assets/Images/progbudget.jpg'
 
