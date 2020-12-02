@@ -43,7 +43,7 @@ function Portfolio() {
             <div className="col-md-6">
                 <div style={{color: 'white', marginBottom:'8px'}}> Keep Austin Social </div>
                 <Image style ={{border:'solid black'}} src={KeepAustinSocial}></Image>
-                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/Moon-Ingenium/KeepAustinSocial"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://enigmatic-brushlands-64346.herokuapp.com/"> Deployed </a></div>
+                <div><a style={{fontSize: 'larger',color: 'white'}} href = "https://github.com/bcermak/KeepAustinSocial"> GitHub </a> || <a style={{fontSize: 'larger',color: 'white'}} href = "https://keepaustinsocial.herokuapp.com/"> Deployed </a></div>
             </div>
         </div>
         
