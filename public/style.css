@@ -52,7 +52,8 @@ background-color: #343a40!important;
 
 }   
 .linkedin {
-margin-top: 20px;
+margin-top: 40px;
+margin-left: 40px;
 }
 
 .aboutMe {
@@ -65,9 +66,13 @@ padding-left: 10px;
 padding-right: 10px;
 margin-left: 22%;
 margin-right: 22%;
-text-align: center;
+
 }
 
+.aboutText {
+    font-family: 'Raleway', sans-serif;
+    margin-right: 15px;
+}
 .projects {
     margin-top:50px;
     text-align: center;
