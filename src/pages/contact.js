@@ -5,7 +5,7 @@ function Contact() {
     return <Container className ="contact">
     <Card className="contactContainer" body outline style={{border:'solid white 4px', backgroundColor: 'black', color: 'white'}}>
       <CardTitle tag="h5"><i class="fas fa-phone-volume"> </i></CardTitle>
-      <CardText>(512)659-1685</CardText>
+      <CardText>(512) 659-1685</CardText>
     </Card>
     <br></br>
     <Card className ="contactContainer" body outline style={{border:'solid white 4px', backgroundColor: 'black', color: 'white'}}>
