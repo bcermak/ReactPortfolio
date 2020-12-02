@@ -29,8 +29,11 @@
     margin-top: 5px;
 }
 
-.contactContainer{
+.contact {
     margin-top: 50px;
+}
+.contactContainer{
+    text-align: center;
     
 }
 
