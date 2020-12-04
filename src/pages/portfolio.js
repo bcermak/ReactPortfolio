@@ -6,7 +6,7 @@ import BrewsNDadJokes from './Assets/Images/brewsndadjokes.jpg'
 import TeamProfiles from './Assets/Images/teamprofiles.jpg'
 import WeatherApp from './Assets/Images/weatherapp.jpg'
 import ReactEmployeeDirectory from './Assets/Images/reactempdir.jpg'
-import ProgressiveBudget from './Assets/Images/progbudget.jpg'
+import ProgressiveBudget from './Assets/Images/progbudget.JPG'
 
 function Portfolio() {
     return <div className= "container">
